@@ -1,0 +1,48 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.7234bd472cd97ada49194111685a7169.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_384x384.ac37824031f11f42713c7a812acd3ca1.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_256x256.a391b8dd0d204d2d2fbc65d7c22633b8.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_192x192.a705414ba9bd824a2c1d5a96fd75d1e6.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_128x128.8a3b9dcdaa21136833efd4be8ffe8206.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_96x96.2d266e4fb94c56f73af561c662bc409d.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "S20 Restaurant",
+  "short_name": "S20 Restaurant",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Restaurant PWA",
+  "background_color": "#00897B",
+  "theme_color": "#FDA446"
+}

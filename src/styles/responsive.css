@@ -1,0 +1,450 @@
+@media screen and (min-width: 650px) {
+    .restaurants {
+        grid-template-columns: 1fr 1fr;
+    }
+   
+    .restaurant {
+        grid-template-columns: auto 1fr;
+    }
+   
+    .restaurant .restaurant__title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }   
+   
+    .restaurant .restaurant__overview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+  }   
+
+@media (min-width: 650px) and (max-width: 899px) {
+.restaurant__info {
+        margin-left:-130px !important;
+    }
+}
+ 
+@media screen and (min-width: 850px) {
+    .restaurants {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+   
+@media screen and (min-width: 1200px) {
+    .restaurants {
+        grid-template-columns: repeat(4, 1fr);
+    }   
+  }
+   
+@media screen and (min-width: 1600px) {
+    .restaurants {
+        grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+@media screen and (min-width: 650px) {
+    .header .header__menu {
+        display: none;
+    }
+      
+    .header .nav ul li {
+        display: inline-block;
+    }
+   
+    .header .nav ul li a {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 270px) { 
+    .card-add-review {
+        margin-left : -10px !important;
+    }
+
+    .Menu-Categories {
+        display: block;
+    }
+
+    .Foods-Categories {
+        margin-bottom: 20px;
+    }
+
+    footer {  
+        padding-left: 0.05em;
+        padding-right: 0.05em;
+    }
+
+    footer p {        
+        font-size: 14px !important;      
+    }
+}
+
+@media screen and (max-width: 320px) {   
+    .content-headline {
+        padding: 10px;
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+    }
+
+    .card-add-review {
+        width:100% !important;       
+        padding: 2px !important;
+    }  
+
+    footer {  
+        padding-left: 0.05em;
+        padding-right: 0.05em;
+    }
+   
+    footer p {
+        font-size:14px;       
+        margin: 0 0.5em;        
+    }
+
+    footer a {    
+        padding: 0.6em;
+    
+    }
+
+    .container-card {
+        display:block;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    .container-card {       
+        padding-left: 10px;        
+    }  
+}
+
+@media screen and (max-width: 499px) { 
+    .Skip-Link {
+        display: block;
+        left:40%;         
+        width: 150px;
+    } 
+    
+    .loadingbar img {        
+        left: 20% !important;
+    }   
+    
+    .loadingbar p {  
+        left: 20% !important;      
+    }   
+
+    .header {
+        height: 120px;
+    }
+    .nav__brand {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-left:5px;
+        margin-bottom: 50px;      
+        position: relative;
+    }
+
+    .nav__list {
+        background: white;
+    }
+
+    .container-card {       
+        padding-left: 5px;        
+    }  
+
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 200px;
+        position: absolute;
+
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+
+    .nav a {     
+        color: #595959;     
+    }
+
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-card {
+        display:block;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    .card-add-review {
+        width:100% !important;       
+        padding: 2px !important;
+    } 
+
+    footer p {
+        font-size:14px;       
+        margin: 0 0.5em;        
+    }
+
+    footer a {    
+        padding: 0.6em;    
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px)  {
+    .Skip-Link {
+        margin-bottom:20px;
+        left:40%;
+    } 
+
+    .card-add-review {
+        width:100% !important;       
+        padding: 2px !important;
+    } 
+}
+
+@media (min-width: 601px) and (max-width: 650px)  {
+    .Skip-Link {
+        margin-bottom:20px;
+        left:63%;
+    } 
+}
+
+@media (min-width: 651px) and (max-width: 700px)  {
+    .Skip-Link {
+        margin-bottom:20px;
+        left:65%;
+    } 
+}
+
+@media (min-width: 701px) and (max-width: 800px)  {
+    .Skip-Link {
+        margin-bottom:20px;
+        left:70%;
+    } 
+}
+
+@media screen and (min-width: 455px) {    
+    .headline__content {
+        padding: 16px 16px;
+    }
+
+    .headline__title {
+        font-size: 28px;
+    }
+
+    .headline__description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .header__menu {
+        display: none;
+    }   
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+    .nav__brand {
+        margin-left:5px; 
+    }
+
+    .img-brand {
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .nav__item {       
+        width: 25%;     
+    } 
+    
+    .nav__list li {       
+        padding-right: -10px;     
+    }
+
+    .card { 
+        display: block;
+        width: 100%;
+    }    
+
+    .container-card { 
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+    } 
+
+    .post-item__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+    .nav__brand {
+        margin-left:5px; 
+    }
+    
+    .nav__item {       
+        width: 25%;     
+    } 
+
+    .card { 
+        display: block;
+        width: 100%;       
+    }    
+
+    .container-card { 
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+    } 
+
+    .post-item__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+    .card {      
+        width: 45%;
+        margin-right: 25px;                
+    } 
+
+    .container-card {      
+        padding-left: 5%;     
+    } 
+}
+
+@media (min-width: 750px) and (max-width: 899px) {
+   .headline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+   .headline__figure {
+       height: 75%;
+       margin-top:40px;
+   }
+}
+
+@media screen and (min-width: 650px) {
+    .headline__content {
+        margin: 0 auto;
+        max-width: 650px;
+    }
+
+    .post-item__content {
+        padding: 16px 32px 32px 32px;
+    }
+
+    .post-item__title {
+        font-size: 18px;
+    }
+
+    .post-item__description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .nav__list {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .content-headline {
+        /* margin-right: 50px; */
+        text-align: justify;
+    }    
+    
+    .headline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .headline__figure img {      
+        height: 90%;           
+    }
+
+    .headline__content {
+        padding: 16px 32px;   
+    }
+
+    .card {       
+        width: 30%;
+        margin-right: 20px;      
+    }
+
+    .restaurant__poster {
+        min-width:550px;
+        object-fit:cover;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) { 
+    .card {       
+        width: 30%;
+        margin-right: 20px;      
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    #mainContent {
+        width: 100% !important;
+    }  
+}
+
+@media screen and (max-width: 300px) {
+    .card-review {       
+        display: block;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .headline__title {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero {       
+        background-image: linear-gradient(
+                          to top, 
+                          rgba(0,0,0,0.222),
+                          rgba(0,0,0,0.222)),
+                           url('/images/heros/hero-image_4_small.jpg');  
+        background-size: cover;    
+    }
+}
